@@ -1,7 +1,5 @@
 -- Credits to Deziel0495 for disabling pistol whipping
-
-
---DISABLED PISTOL WHIPPING
+--DISABLEs PISTOL WHIPPING
 
 Citizen.CreateThread(function()
     while true do
@@ -24,7 +22,7 @@ end
 
 local pedindex = {}
 
-
+-- Code I found with no owner attached
 -- DISABLES NPC'S FROM DROPING WEAPONS
 function SetWeaponDrops() -- This function will set the closest entity to you as the variable entity.
     local handle, ped = FindFirstPed()
