@@ -1,5 +1,5 @@
 -- Credits to Deziel0495 for disabling pistol whipping
---DISABLEs PISTOL WHIPPING
+--DISABLES PISTOL WHIPPING
 
 Citizen.CreateThread(function()
     while true do
