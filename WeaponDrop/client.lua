@@ -24,6 +24,8 @@ local pedindex = {}
 
 -- Code I found with no owner attached
 -- DISABLES NPC'S FROM DROPING WEAPONS
+local pedindex = {}
+
 function SetWeaponDrops() -- This function will set the closest entity to you as the variable entity.
     local handle, ped = FindFirstPed()
     local finished = false -- FindNextPed will turn the first variable to false when it fails to find another ped in the index
